@@ -37,7 +37,7 @@
             <h1 class="cover-heading">Still waiting?</h1>
             <p class="lead"><%= Time.now %></p>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Don't Push!</a>
+              <a href="ArticleSplash.html.erb" class="btn btn-lg btn-default">Check This Article!</a>
             </p>
           </div>
 
