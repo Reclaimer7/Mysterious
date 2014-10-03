@@ -1,0 +1,2 @@
+module ArctEditsHelper
+end

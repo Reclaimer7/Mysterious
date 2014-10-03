@@ -1,0 +1,27 @@
+<h1>Listing arct_edits</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Text</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @arct_edits.each do |arct_edit| %>
+      <tr>
+        <td><%= arct_edit.title %></td>
+        <td><%= arct_edit.text %></td>
+        <td><%= link_to 'Show', arct_edit %></td>
+        <td><%= link_to 'Edit', edit_arct_edit_path(arct_edit) %></td>
+        <td><%= link_to 'Destroy', arct_edit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Arct edit', new_arct_edit_path %>
