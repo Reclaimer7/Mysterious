@@ -5921,3 +5921,316 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-02 20:12:35 -06
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-02 20:12:35 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-02 21:34:45 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (48.3ms)
+Completed 500 Internal Server Error in 267ms
+
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"articles"}):
+    37:             <h1 class="cover-heading">Still waiting?</h1>
+    38:             <p class="lead"><%= Time.now %></p>
+    39:             <p class="lead">
+    40:               <a class="btn btn-lg btn-default"><%= link_to 'Check This Article!', controller: 'articles' %></a>
+    41:             </p>
+    42:           </div>
+    43: 
+  app/views/welcome/index.html.erb:40:in `_app_views_welcome_index_html_erb__119634770_89588900'
+
+
+  Rendered /home/charlie/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.3ms)
+  Rendered /home/charlie/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.7ms)
+  Rendered /home/charlie/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-02 21:35:16 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 1839ms (Views: 1786.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:19 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/arct_edits.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/artc_splash.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-02 21:35:20 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (3.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-02 21:39:00 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 1594ms (Views: 1589.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/arct_edits.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/artc_splash.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-02 21:39:36 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 1011ms (Views: 1000.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:37 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+Started GET "/assets/arct_edits.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/artc_splash.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:38 -0600
+
+
+Started GET "/arct_edits" for 127.0.0.1 at 2014-10-02 21:39:44 -0600
+Processing by ArctEditsController#index as HTML
+  [1m[35mArctEdit Load (21.8ms)[0m  SELECT "arct_edits".* FROM "arct_edits"
+  Rendered arct_edits/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 918ms (Views: 881.0ms | ActiveRecord: 21.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:45 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/arct_edits.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/artc_splash.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-02 21:39:46 -0600
